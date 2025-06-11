@@ -1,91 +1,35 @@
-﻿#include <iostream>
+﻿#include<iostream>
 using namespace std;
-class gameobject
-{
-public:
-int x = 0;
-int y = 0;
-int z = 0;
-static int count;
 
-    void SetX(int value)
-    {
-        if (value >= 100)
-        {
-            cout << "실패" << endl;
-        }
-        else
-        {
-            x = value;
-        }
-    }
-    int& GetX()
-    {
-        return x;
-    }
-    // Y값을 구한다.
-    void SetY(int value)
-    {
-        if (value >= 100)
-        {
-            cout << "실패" << endl;
-        }
-        else
-        {
-            y = value;
-        }
-    }
-    int& GetY()
-    {
-        return y;
-    }
-    //Z값을 구한다.
-    void SetZ(int value)
-    {
-        if (value >= 100)
-        {
-            cout << "실패" << endl;
-        }
-        else
-        {
-            z = value;
-        }
-    }
-    int& GetZ()
-    {
-        return z;
-    }
-    
-    void increase()
-    {
-        count = count + 1;
+// 멤버 이니셜 라이저
+// 왜? 멤버 이니셜 라이저를 사용해야하는가?
+// 실행해보기
+//
+
+
+// 멤버 이니셜 라이저의 정의
+// 클래스의 멤버 변수를 초기화하는 방법
+// 생성자에서 사용되며, 멤버 초기화 리스트라고도 불린다.
+
+
+//기본 문법
+class RefHolder {
+private:
+    int& ref;
+
+public:
+    RefHolder(int& r) : ref(r) {}
+
+    void print() {
+        cout << "참조된 값: " << ref << endl;
     }
 };
 
-int gameobject::count = 110;
-
-int main()
-{
-    gameobject gameobject1;
-
-    //object1
-    gameobject1.SetX(10);
-    gameobject1.SetY(10);
-    gameobject1.SetZ(10);
-    gameobject1.count;
-
-    gameobject1.GetX();
-    gameobject1.GetY();
-    gameobject1.GetZ();
-
-
-
-    cout << "gameobject1의 GetX의 값:" << gameobject1.GetX() << endl;
-    cout << "gameobject1의 GetY의 값:" << gameobject1.GetY() << endl;
-    cout << "gameobject1의 GetZ의 값:" << gameobject1.GetZ() << endl;
-    cout << "생성된 객체 수: " << gameobject::count << endl;
-
-#pragma endregion
-
+int main() {
+    int x = 42; // 자료형 int에 변수 x를 생성한다.
+    RefHolder rh(x);
+    rh.print();
+    x = 100;
+    rh.print();
+    return 0;
 }
-

@@ -1,32 +1,49 @@
 ﻿#include <iostream>
 using namespace std;
 
-class Dog {
+class Item
+{
 private:
-    // 정적 멤버 변수 (모든 Dog 객체가 공유)
-    static int count;
+    char grade;
+    int* price;
 
 public:
-    // 생성자: Dog 객체가 생성될 때마다 count 증가
-    Dog() {
-        count++;
+    Item()
+    {
+        grade = 'A';
+        price = new int;
+        *price = 0;
     }
 
-    // 정적 멤버 함수: 전체 개수 반환
-    static int GetCount() {
-        return count;
+    // 얕은 복사 생성자
+    Item(const Item& clone)
+    {
+        grade = clone.grade;
+        price = new int;
+        *price = *(clone.price);
+    }
+
+    void information()
+    {
+        cout << "등급 : " << grade << endl;
+        cout << "가격 : " << *price << endl;
+    }
+
+    // 소멸자에서 delete 하지 않음 -> 얕은 복사 안전하게 사용 가능
+    ~Item()
+    {
+        delete price;
+        cout << "소멸자 작동" << endl;
     }
 };
 
-// 정적 멤버 변수는 클래스 밖에서 정의 및 초기화해야 함
-int Dog::count = 0;
+int main()
+{
+    Item item1;
+    Item item2(item1);
 
-int main() {
-    Dog d1; // 첫 번째 객체
-    Dog d2; // 두 번째 객체
-
-    // 정적 함수는 클래스 이름으로 호출 가능
-    cout << "현재 강아지 객체 수: " << Dog::GetCount() << endl;
+    item1.information();
+    item2.information();
 
     return 0;
 }
