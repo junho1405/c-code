@@ -1,35 +1,38 @@
 ﻿#include<iostream>
 using namespace std;
 
-// 멤버 이니셜 라이저
-// 왜? 멤버 이니셜 라이저를 사용해야하는가?
-// 실행해보기
-//
+// 다중상속에 대해 알아보자
 
-
-// 멤버 이니셜 라이저의 정의
-// 클래스의 멤버 변수를 초기화하는 방법
-// 생성자에서 사용되며, 멤버 초기화 리스트라고도 불린다.
-
-
-//기본 문법
-class RefHolder {
-private:
-    int& ref;
-
+// 다중상속이란?
+// 하나의 클래스가 여러 부모 클래스를 동시에 상속받는 것
+// 
+class Fly {
 public:
-    RefHolder(int& r) : ref(r) {}
-
-    void print() {
-        cout << "참조된 값: " << ref << endl;
+    void Fling() {
+        cout << "날아갑니다!" << endl;
     }
 };
 
+class Swim {
+public:
+    void Swimming() {
+        cout << "수영합니다!" << endl;
+    }
+};
+
+class Duck : public Fly, public Swim {
+    // Fly()와 Swim() 모두 사용 가능
+};
+
+
 int main() {
-    int x = 42; // 자료형 int에 변수 x를 생성한다.
-    RefHolder rh(x);
-    rh.print();
-    x = 100;
-    rh.print();
-    return 0;
+    Duck d;
+    d.Fling();   // 출력: 날아갑니다!
+    d.Swimming();  // 출력: 수영합니다!
 }
+
+// 설명
+// class fly와 swim을 duck에 상속시킨다.
+// duck d를 만든다.
+// d.Fling(); d.Swimming();으로 날아갑니다. 수엽합니다. 를 한번에 호출한다.
+// 
