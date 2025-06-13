@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="consum.cpp" />
+    <ClCompile Include="lantern.cpp" />
+    <ClCompile Include="potion.cpp" />
+    <ClCompile Include="rope.cpp" />
     <ClCompile Include="source.cpp" />
+    <ClCompile Include="water.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="consum.h" />
+    <ClInclude Include="lantern.h" />
+    <ClInclude Include="potion.h" />
+    <ClInclude Include="rope.h" />
+    <ClInclude Include="water.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
