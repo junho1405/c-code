@@ -127,18 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Program\consum.cpp" />
-    <ClCompile Include="..\Program\lantern.cpp" />
-    <ClCompile Include="..\Program\potion.cpp" />
-    <ClCompile Include="..\Program\rope.cpp" />
-    <ClCompile Include="..\Program\water.cpp" />
     <ClCompile Include="연습장.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Program\consum.h" />
-    <ClInclude Include="..\Program\lantern.h" />
-    <ClInclude Include="..\Program\potion.h" />
-    <ClInclude Include="..\Program\rope.h" />
     <ClInclude Include="..\Program\water.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

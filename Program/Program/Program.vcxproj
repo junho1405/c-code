@@ -127,18 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="consum.cpp" />
-    <ClCompile Include="lantern.cpp" />
-    <ClCompile Include="potion.cpp" />
-    <ClCompile Include="rope.cpp" />
+    <ClCompile Include="Brush.cpp" />
+    <ClCompile Include="Paint.cpp" />
+    <ClCompile Include="Pencil.cpp" />
     <ClCompile Include="source.cpp" />
-    <ClCompile Include="water.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Brush.h" />
     <ClInclude Include="consum.h" />
     <ClInclude Include="lantern.h" />
+    <ClInclude Include="Paint.h" />
+    <ClInclude Include="Pencil.h" />
     <ClInclude Include="potion.h" />
     <ClInclude Include="rope.h" />
+    <ClInclude Include="Vector2D.h" />
     <ClInclude Include="water.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

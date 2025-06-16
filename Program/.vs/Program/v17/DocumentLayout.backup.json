@@ -7,52 +7,12 @@
       "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7E12AF-7D99-478C-8A73-E8413B0CE657}|\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AD7E12AF-7D99-478C-8A73-E8413B0CE657}|\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.vcxproj|solutionrelative:\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Vector2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\Vector2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\consum.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\consum.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\lantern.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\lantern.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\potion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\potion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\water.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\water.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\rope.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\rope.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\consum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\consum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\lantern.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\lantern.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\water.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\water.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\rope.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\rope.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\potion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\potion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE63B45-0F90-4C27-A2DC-97BC27A9B09B}|Class4th (Inheritance)\\Class4th (Inheritance).vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2BE63B45-0F90-4C27-A2DC-97BC27A9B09B}|Class4th (Inheritance)\\Class4th (Inheritance).vcxproj|solutionrelative:Program\\vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Vector2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\Vector2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,162 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 446,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "water.cpp",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\water.cpp",
-              "RelativeDocumentMoniker": "Program\\water.cpp",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\water.cpp",
-              "RelativeToolTip": "Program\\water.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T05:22:44.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "water.h",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\water.h",
-              "RelativeDocumentMoniker": "Program\\water.h",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\water.h",
-              "RelativeToolTip": "Program\\water.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-13T05:22:04.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "lantern.cpp",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\lantern.cpp",
-              "RelativeDocumentMoniker": "Program\\lantern.cpp",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\lantern.cpp",
-              "RelativeToolTip": "Program\\lantern.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T05:19:35.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "lantern.h",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\lantern.h",
-              "RelativeDocumentMoniker": "Program\\lantern.h",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\lantern.h",
-              "RelativeToolTip": "Program\\lantern.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-13T05:19:20.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "rope.cpp",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\rope.cpp",
-              "RelativeDocumentMoniker": "Program\\rope.cpp",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\rope.cpp",
-              "RelativeToolTip": "Program\\rope.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T05:17:17.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "rope.h",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\rope.h",
-              "RelativeDocumentMoniker": "Program\\rope.h",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\rope.h",
-              "RelativeToolTip": "Program\\rope.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-13T05:16:31.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "consum.cpp",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\consum.cpp",
-              "RelativeDocumentMoniker": "Program\\consum.cpp",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\consum.cpp",
-              "RelativeToolTip": "Program\\consum.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T04:48:02.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "potion.cpp",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\potion.cpp",
-              "RelativeDocumentMoniker": "Program\\potion.cpp",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\potion.cpp",
-              "RelativeToolTip": "Program\\potion.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T04:46:32.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "potion.h",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\potion.h",
-              "RelativeDocumentMoniker": "Program\\potion.h",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\potion.h",
-              "RelativeToolTip": "Program\\potion.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-13T04:46:10.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "vehicle.h",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\vehicle.h",
-              "RelativeDocumentMoniker": "Program\\vehicle.h",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\vehicle.h",
-              "RelativeToolTip": "Program\\vehicle.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-13T04:45:39.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "consum.h",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\consum.h",
-              "RelativeDocumentMoniker": "Program\\consum.h",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\consum.h",
-              "RelativeToolTip": "Program\\consum.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "Vector2D.h",
+              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Vector2D.h",
+              "RelativeDocumentMoniker": "Program\\Vector2D.h",
+              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Vector2D.h",
+              "RelativeToolTip": "Program\\Vector2D.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-13T04:45:16.64Z",
+              "WhenOpened": "2025-06-16T05:32:51.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "\uC5F0\uC2B5\uC7A5.cpp",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp",
-              "RelativeDocumentMoniker": "\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp*",
-              "RelativeToolTip": "\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "Vector2D.cpp",
+              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Vector2D.cpp",
+              "RelativeDocumentMoniker": "Program\\Vector2D.cpp",
+              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Vector2D.cpp",
+              "RelativeToolTip": "Program\\Vector2D.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T04:39:07.867Z",
+              "WhenOpened": "2025-06-16T05:37:31.386Z",
               "EditorCaption": ""
             },
             {
@@ -228,7 +58,7 @@
               "RelativeDocumentMoniker": "Program\\source.cpp",
               "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\source.cpp",
               "RelativeToolTip": "Program\\source.cpp",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-12T06:35:50.531Z",
               "EditorCaption": ""
