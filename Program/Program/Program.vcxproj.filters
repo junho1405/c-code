@@ -13,51 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="사용끝난헤더">
+      <UniqueIdentifier>{3e6e9dbe-1ddf-4d16-8627-5b486e934b15}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Paint.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Brush.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Pencil.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Vector2D.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Brush.h">
+      <Filter>사용끝난헤더</Filter>
+    </ClInclude>
     <ClInclude Include="consum.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="potion.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="rope.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>사용끝난헤더</Filter>
     </ClInclude>
     <ClInclude Include="lantern.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="water.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>사용끝난헤더</Filter>
     </ClInclude>
     <ClInclude Include="Paint.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Brush.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>사용끝난헤더</Filter>
     </ClInclude>
     <ClInclude Include="Pencil.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>사용끝난헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="potion.h">
+      <Filter>사용끝난헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="rope.h">
+      <Filter>사용끝난헤더</Filter>
     </ClInclude>
     <ClInclude Include="Vector2D.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>사용끝난헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>사용끝난헤더</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -26,4 +26,32 @@ const Vector2D& Vector2D::operator+(const Vector2D& vector2)
 	// TODO: 여기에 return 문을 삽입합니다.
 }
 
+const Vector2D& Vector2D::operator-(const Vector2D& vector2)
+{
+	Vector2D clone(this->x - vector2.x, this->y - vector2.y);
+	return clone;
+	// TODO: 여기에 return 문을 삽입합니다.
+}
+
+const Vector2D& Vector2D::operator*(const Vector2D& vector2)
+{
+	Vector2D clone(this->x * vector2.x, this->y * vector2.y);
+	return clone;
+	// TODO: 여기에 return 문을 삽입합니다.
+}
+
+const Vector2D& Vector2D::operator/(const Vector2D& vector2)
+{
+	Vector2D clone(this->x / vector2.x, this->y / vector2.y);
+	return clone;
+	// TODO: 여기에 return 문을 삽입합니다.
+}
+
+const Vector2D& Vector2D::operator%(const Vector2D& vector2)
+{
+	 Vector2D clone(this->x % vector2.x, this->y % vector2.y);
+	 return clone;
+	// TODO: 여기에 return 문을 삽입합니다.
+}
+
 

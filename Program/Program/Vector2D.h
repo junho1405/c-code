@@ -12,5 +12,10 @@ public:
 	void Position() const;
 
 	const Vector2D& operator + ( const Vector2D &vector2 );
+	const Vector2D& operator - ( const Vector2D &vector2 );
+	const Vector2D& operator * ( const Vector2D &vector2 );
+	const Vector2D& operator / ( const Vector2D &vector2 );
+	const Vector2D& operator % ( const Vector2D &vector2 );
+	
 };
 
