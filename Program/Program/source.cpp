@@ -1,106 +1,111 @@
 ﻿#include<iostream>
-#include<cstring>
-#define SIZE 5
+#include<vector>
+#include<list>
+#include<stack>
+#include<queue>
 using namespace std;
-template<typename T>
-bool Same(T left, T right)
-{
-	return left == right;
-}
-template<>
-bool Same(const char * left, const char * right)//특수 템플릿은 기존 같은이름의 템플릿이있어야 사용가능
-{
-	//길이가 같은지 구분하는 거 만들기
-	return strlen(left) == strlen(right);
-}
-
-
-template<typename T>
-class Container
-{
-private:
-	int index;
-	T list[SIZE];
-
-public:
-	Container()
-	{
-		index = 0;
-		for (int i = 0; i < SIZE; i++)
-		{
-			list[i] = NULL;
-		}
-	}
-	const T& operator[](int count)
-	{
-		return list[count];
-	}
-	void Add(T data)
-	{
-		if (index < SIZE)
-		{
-			list[index++] = data;
-		}
-		else
-		{
-			cout << "index out of range" << endl;
-		}
-	}
-};
-
-
 
 int main()
 {
-#pragma region 템플릿
-	// 데이터 형식에 의존하지 않고, 하나의 값이 여러
-	// 형식을 가질 수 있는 기술에 중점을 ㄷ어 재사용성을 
-	// 높일 수 있는 기능입니다.
+#pragma region 선형 컨테이너
+	// 
+	//
+#pragma region vector containor
+	//std::vector<int> vector;
+	//vector.reserve(10);
+	//
+	//vector.push_back(10);
+	//vector.push_back(20);
+	//vector.push_back(30);
+	//vector.push_back(40);
+	//vector.push_back(50);
+	//
+	//
+	//cout <<"vector의 크기(배열의 갯수) : " << vector.size() << endl;
+	//cout << "capacity의 값 : " << vector.capacity() << endl;
+	////잘못쓰면 용량 차지 엄청함
+	//
+	//
+	//
+	//for (int i = 0; i < vector.size(); i++)
+	//{
+	//	cout << vector[i] << endl;
+	//	//cout << &vector[i] << endl;
+	//}
 	
-	//bool Same(char x, char y);
-	//bool Same(int x, int y);
-	//bool Same(double x , double y);
-	//bool Same(const char * x, const char *y);
-	//템플릿을 쓰면 이렇게 귀찮게 안해도 된다.
-
-	//cout << "값 : "<< Same(5, 5) << endl;					//1이나옴
-	//cout << "값 : "<< Same(L'a', L'가나다라마바사') << endl;	//0이나옴
-	//cout << "값 : "<< Same('a', 'a') << endl;				//1이나옴
-	//cout << "값 : "<< Same(3.14, 3.12) << endl;				//0이나옴
-	// 정리하자면 다양한 자료형을 사용할 수 있다.
-	// 오버로딩과 비교 : 로직이 복잡한건 오버로딩 추천
-	//
-
-
-
-
 
 #pragma endregion
-#pragma region 템플릿의 특수함
-	// 특정 자료형에 대해 다르게 처리하고 싶은 경우
-	// 특수한 자료형만 다른 형식으로 동작시키는 기능입니다.
+#pragma region  list container
+	std::list <int> list;
+	//[20]
+	//[20] - [30]
+	//[10] - [20] - [30]
+	//[20] - [30]
+
+	//list.push_back(20);
+	//list.push_back(30);
+	//list.push_front(10);
+	//list.pop_front();
+	//list.assign(3,10);
 	//
-	//const char* x = "abc";
-	//const char* y = "def";
-	//cout << "길이가 같은가?" << Same(x,y) << endl;
-	//cout << "길이가 같은가?" << Same("asbb", "sasas") << endl;
+	//for (int value : list)// int 변수 : 벡터
+	//{
+	//	cout <<"[" << value<<"]"<<endl;
+	//}
+	//cout << "list의 사이즈 : "<<list.size()<<endl;
 #pragma endregion
-#pragma region 클래스 템플릿
+#pragma region string
+	// 문자열클래스
+	//
 
-	Container<int> container;
-	container.Add(10);
-	container.Add(20);
-	container.Add(30);
-	container.Add(40);
-	container.Add(50);
+	//string contents;
+	//cout << contents.capacity() << endl;//capacity를 기본적으로 15로 잡는다
+	//contents = "League Of Legend";
+	//contents.append("League Of Legend");
+	//
+	//cout << contents << endl;
+	//cout << contents.capacity() << endl;
+	//
+	//contents = "Battle Field";
+	//contents.append("Battle Fiel");
+	//cout << contents << endl;
+	//cout << contents.capacity() << endl;
 
-	for (int i = 0; i < SIZE; i++)
+#pragma endregion
+#pragma region 컨테이너
+
+	//stack<int> stack;
+	//stack.push(10);
+	//stack.push(20);
+	//stack.push(30);
+	//stack.push(40);
+	//
+	//
+	//while (!stack.empty())
+	//{
+	//	cout << stack.top() << endl;
+	//	stack.pop();	
+	//	
+	//}
+	//cout << stack.empty()<<endl;
+	//cout << " 1이 나오면 모두 비어낸 겁니다." << endl;
+#pragma endregion
+#pragma region  queuecontainor
+	queue<int> Q;
+	Q.push(10);
+	Q.push(20);
+	Q.push(30);
+	Q.push(40);
+	Q.push(50);
+	cout << Q.empty() << endl;
+	while (Q.empty()==false)//!Q.empty()라고 적어도 됨
 	{
-		cout << container[i] << endl;
+		cout << Q.front() << endl;
+		Q.pop();
 	}
+	cout << Q.empty() << endl;
 #pragma endregion
 
+#pragma endregion
 
 }
-
-
