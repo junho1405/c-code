@@ -3,12 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{232DB26C-9AC3-4DE0-B123-58309A9AB1B3}|Class9th(recontaner)\\Class9th(recontaner).vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Class9th(recontaner)\\Class9th(recontaner).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{232DB26C-9AC3-4DE0-B123-58309A9AB1B3}|Class9th(recontaner)\\Class9th(recontaner).vcxproj|solutionrelative:Class9th(recontaner)\\Class9th(recontaner).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Resource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|solutionrelative:Program\\Resource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\deque||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35B990B1-9048-4FBF-ACCC-22468C236AAA}|Program\\Program.vcxproj|C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -27,27 +26,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Resource.cpp",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Resource.cpp",
-              "RelativeDocumentMoniker": "Program\\Resource.cpp",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Resource.cpp",
-              "RelativeToolTip": "Program\\Resource.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-02T06:06:00.7Z",
+              "Title": "deque",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\deque",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\deque",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\deque",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\deque",
+              "ViewState": "AgIAACcEAAAAAAAAAAAuwDIEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-03T06:14:00.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Resource.h",
-              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Resource.h",
-              "RelativeDocumentMoniker": "Program\\Resource.h",
-              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\Resource.h",
-              "RelativeToolTip": "Program\\Resource.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-02T06:04:31.371Z",
+              "Title": "Class9th(recontaner).cpp",
+              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Class9th(recontaner)\\Class9th(recontaner).cpp",
+              "RelativeDocumentMoniker": "Class9th(recontaner)\\Class9th(recontaner).cpp",
+              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Class9th(recontaner)\\Class9th(recontaner).cpp*",
+              "RelativeToolTip": "Class9th(recontaner)\\Class9th(recontaner).cpp*",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAqwIUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-03T05:41:00.466Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "Program\\source.cpp",
               "ToolTip": "C:\\Users\\OFFICE\\Desktop\\c-code\\Program\\Program\\source.cpp",
               "RelativeToolTip": "Program\\source.cpp",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAUwFIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-18T04:05:23.372Z",
               "EditorCaption": ""

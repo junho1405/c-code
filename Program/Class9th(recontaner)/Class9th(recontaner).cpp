@@ -3,6 +3,8 @@
 #include<list>
 #include<stack>
 #include<queue>
+#include<deque>
+
 using namespace std;
 
 int main()
@@ -91,20 +93,50 @@ int main()
 	//cout << " 1이 나오면 모두 비어낸 겁니다." << endl;
 #pragma endregion
 #pragma region  queuecontainor
-	queue<int> Q;
-	Q.push(10);
-	Q.push(20);
-	Q.push(30);
-	Q.push(40);
-	Q.push(50);
-	cout << Q.empty() << endl;
-	while (Q.empty() == false)//!Q.empty()라고 적어도 됨
-	{
-		cout << Q.front() << endl;
-		Q.pop();
-	}
-	cout << Q.empty() << endl;
+	//queue<int> Q;
+	//Q.push(10);
+	//Q.push(20);
+	//Q.push(30);
+	//Q.push(40);
+	//Q.push(50);
+	//cout << Q.empty() << endl;
+	//while (Q.empty() == false)//!Q.empty()라고 적어도 됨
+	//{
+	//	cout << Q.front() << endl;
+	//	Q.pop();
+	//}
+	//cout << Q.empty() << endl;
 #pragma endregion
+
+#pragma endregion
+#pragma region deque container
+	//Double Ending Queue 
+	//요약 : push_back/ push_front다 됨
+
+	//목표 데큐만들고 위에거 하기
+	std::deque<int> Deque;
+	//Deque.push_front(10);
+	//Deque.push_front(20);
+	//Deque.push_front(30);
+	//Deque.push_front(40);
+	//Deque.push_front(50);
+	//Deque.push_front(5);
+	//Deque.push_front(1);
+	//
+	//Deque.push_back(60);
+	//Deque.push_back(75);
+	//
+	//for (int i = 0; i<Deque.)
+	//{
+	//
+	//}
+	//
+	//while(Deque.empty()== false)
+	//{
+	//cout << Deque.front() << endl;
+	//Deque.pop_front();
+	//}
+
 
 #pragma endregion
 

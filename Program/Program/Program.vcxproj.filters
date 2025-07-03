@@ -16,16 +16,22 @@
     <Filter Include="사용끝난헤더">
       <UniqueIdentifier>{3e6e9dbe-1ddf-4d16-8627-5b486e934b15}</UniqueIdentifier>
     </Filter>
+    <Filter Include="사용끝난cp..">
+      <UniqueIdentifier>{42bc4741-a61b-4bfa-8916-68eff9b5de1d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Packet.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Resource.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>사용끝난cp..</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>사용끝난cp..</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>사용끝난cp..</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -56,11 +62,14 @@
     <ClInclude Include="water.h">
       <Filter>사용끝난헤더</Filter>
     </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>사용끝난헤더</Filter>
+    </ClInclude>
     <ClInclude Include="Packet.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>사용끝난헤더</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>사용끝난헤더</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

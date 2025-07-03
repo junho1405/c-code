@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Character.cpp" />
     <ClCompile Include="Packet.cpp" />
     <ClCompile Include="Resource.cpp" />
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Brush.h" />
+    <ClInclude Include="Character.h" />
     <ClInclude Include="consum.h" />
     <ClInclude Include="lantern.h" />
     <ClInclude Include="Packet.h" />
