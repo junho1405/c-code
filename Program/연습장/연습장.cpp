@@ -1,126 +1,34 @@
-﻿// 클리커 게임에 필요한 기능이 무엇이 있을까?
-// 버튼을 눌렀을 때 카운트 다운 되도록하기<<<1순위
-// 상점기능 << 모은 포인트로 클릭당 포인트를 강화한다.
-// 자동 클리커 기능을 강화한다.
-// 
-// 버전 0.1목표 스페이스바를 눌러서 카운트 되는 기능을 만든다.
-// 버전 0.2목표 초당포인트가 1씩 오르게만든다.
-//
-
-#include <iostream>
-#include <thread>
-#include <chrono>
-#include <windows.h>
-#include <limits>
+﻿#include<queue>
+#include<iostream>
+#include<unordered_map>
+struct nodetree
+{
+	int data;
+	nodetree* right;
+	nodetree* left;
+};
 
 using namespace std;
-using namespace chrono;
 
-int score = 0;
-int autoClickers = 0;
-int clickPower = 1;
-int clickUpgradeCost = 10;
-int autoClickerCost = 10;
-bool running = true;
 
-void setCursorPosition(int x, int y) {
-    COORD coord = { (SHORT)x, (SHORT)y };
-    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
-}
 
-void autoClick() {
-    while (running) {
-        if (autoClickers > 0) {
-            score += autoClickers;
-        }
-        this_thread::sleep_for(chrono::seconds(1));
-    }
-}
+int main()
+{
+	//priorty_queque
+	//priority_queue<int> pq;
+	//pq.push(10);
+	//pq.push(30);
+	//pq.push(50);
+	//while (!pq.empty())
+	//{
+	//	cout << pq.top() << endl;
+	//	pq.pop();
+	//}
+	//unordered_map<string, int> 무기;
+	//무기["검"] = 1500;
+	//무기["창"] = 2500;
+	//무기["총"] = 3500;
+	//
+	//cout <<"창의가격 : " << 무기["창"] << "원" << endl;
 
-void printUI(int remainingTime) {
-    setCursorPosition(0, 0);
-    cout << "------ 클리커 게임 (20초 타이머) ------      \n";
-    cout << "스페이스바: 클릭 (+" << clickPower << "점) (떼면 클릭) \n";
-    cout << "A 키: 자동 클릭기 구매 (" << autoClickerCost << "점)     \n";
-    cout << "U 키: 클릭 업그레이드 (" << clickUpgradeCost << "점)     \n";
-    cout << "Q 키: 종료                                \n";
-    cout << "----------------------------------------\n";
-    cout << "남은 시간: " << remainingTime << "초                   \n";
-    cout << "현재 점수: " << score << "                         \n";
-    cout << "자동 클릭기: " << autoClickers << "개                    \n";
-    cout << "클릭당 점수: " << clickPower << "점                      \n";
-    cout << "----------------------------------------\n";
-}
-
-int main() {
-    system("cls");
-    thread autoClickThread(autoClick);
-
-    auto startTime = steady_clock::now();
-    const int gameDuration = 20;
-
-    bool spacePrev = false;
-    bool aPrev = false;
-    bool uPrev = false;
-    bool qPrev = false;
-
-    while (running) {
-        int elapsedTime = duration_cast<seconds>(steady_clock::now() - startTime).count();
-        int remainingTime = gameDuration - elapsedTime;
-
-        if (remainingTime <= 0) {
-            running = false;
-            break;
-        }
-
-        printUI(remainingTime);
-
-        bool spaceNow = (GetAsyncKeyState(VK_SPACE) & 0x8000);
-        bool aNow = (GetAsyncKeyState('A') & 0x8000);
-        bool uNow = (GetAsyncKeyState('U') & 0x8000);
-        bool qNow = (GetAsyncKeyState('Q') & 0x8000);
-
-        if (spacePrev && !spaceNow) {
-            score += clickPower;
-        }
-
-        if (aPrev && !aNow) {
-            if (score >= autoClickerCost) {
-                score -= autoClickerCost;
-                autoClickers++;
-                autoClickerCost += 10;
-            }
-        }
-
-        if (uPrev && !uNow) {
-            if (score >= clickUpgradeCost) {
-                score -= clickUpgradeCost;
-                clickPower++;
-                clickUpgradeCost += 10;
-            }
-        }
-
-        if (qPrev && !qNow) {
-            running = false;
-        }
-
-        spacePrev = spaceNow;
-        aPrev = aNow;
-        uPrev = uNow;
-        qPrev = qNow;
-
-        this_thread::sleep_for(chrono::milliseconds(50));
-    }
-
-    autoClickThread.join();
-    system("cls");
-
-    cout << "게임 종료! 최종 점수: " << score << endl;
-    cout << "엔터를 누르면 종료됩니다..." << endl;
-
-    // 콘솔 입력 버퍼 완전히 초기화
-    FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
-    cin.get(); // 엔터 입력 대기
-
-    return 0;
 }

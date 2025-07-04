@@ -1,42 +1,22 @@
 ﻿#include <iostream>
-#include <windows.h>
+#include <unordered_map>
+#include<string>
+using namespace std;
 
 int main() {
-    HANDLE hInput = GetStdHandle(STD_INPUT_HANDLE);
-    DWORD mode;
+    unordered_map<int, string> umap;
 
-    // 기존 모드 저장
-    GetConsoleMode(hInput, &mode);
+    umap.max_load_factor(0.7);  // 최대 부하율 지정
+    umap.rehash(20);            // 최소 20개 버킷 확보
 
-    // 입력 모드 설정 (마우스 입력 포함)
-    SetConsoleMode(hInput, ENABLE_EXTENDED_FLAGS | ENABLE_WINDOW_INPUT | ENABLE_MOUSE_INPUT);
-
-    INPUT_RECORD inputRecord;
-    DWORD events;
-    std::cout << "마우스 클릭을 감지 중입니다. 오른쪽 클릭하면 종료됩니다.\n";
-
-    while (true) {
-        ReadConsoleInput(hInput, &inputRecord, 1, &events);
-
-        if (inputRecord.EventType == MOUSE_EVENT) {
-            MOUSE_EVENT_RECORD mer = inputRecord.Event.MouseEvent;
-
-            if (mer.dwEventFlags == 0) { // 마우스 버튼 눌림
-                if (mer.dwButtonState & FROM_LEFT_1ST_BUTTON_PRESSED) {
-                    std::cout << "왼쪽 클릭! 위치: ("
-                        << mer.dwMousePosition.X << ", "
-                        << mer.dwMousePosition.Y << ")\n";
-                }
-                else if (mer.dwButtonState & RIGHTMOST_BUTTON_PRESSED) {
-                    std::cout << "오른쪽 클릭 - 프로그램 종료\n";
-                    break;
-                }
-            }
-        }
+    for (int i = 0; i < 10; ++i) {
+        umap[i] = "value" + to_string(i);
     }
 
-    // 모드 원상복구
-    SetConsoleMode(hInput, mode);
+    cout << "요소 수: " << umap.size() << endl;
+    cout << "버킷 수: " << umap.bucket_count() << endl;
+    cout << "현재 부하율: " << umap.load_factor() << endl;
+    cout << "최대 부하율: " << umap.max_load_factor() << endl;
 
     return 0;
 }

@@ -4,6 +4,7 @@
 #include<stack>
 #include<queue>
 #include<deque>
+#include<unordered_map>
 
 using namespace std;
 
@@ -107,8 +108,6 @@ int main()
 	//}
 	//cout << Q.empty() << endl;
 #pragma endregion
-
-#pragma endregion
 #pragma region deque container
 	//Double Ending Queue 
 	//요약 : push_back/ push_front다 됨
@@ -139,5 +138,33 @@ int main()
 
 
 #pragma endregion
+#pragma region priority_queue
+	//priorityqueue의 속도는 node n이다.
+	//이건 무조건 1개씩만 꺼내진다.
+	//priority_queue<int> priorityqueue;
+	//priorityqueue.push(10);
+	//priorityqueue.push(20);
+	//priorityqueue.push(40);
+	//priorityqueue.push(30);
+	//priorityqueue.push(50);
+	//int pq_size = priorityqueue.size();
+	//while (!priorityqueue.empty())
+	////while (priorityqueue.empty()==false) 로도 쓸 수 있다.
+	//{
+	//cout <<"top값 : " << priorityqueue.top() << endl;
+	//cout <<"size : " << priorityqueue.size() << endl;
+	//priorityqueue.pop();
+	//}
+	//for (int i=0; i < pq_size; i++)
+	//{
+	//	cout << "for문버전" << endl;
+	//	cout << "top값 : " << priorityqueue.top() << endl;
+	//	cout << "size : " << priorityqueue.size() << endl;
+	//	priorityqueue.pop();
+	//}
 
+#pragma endregion
+
+
+#pragma endregion
 }
