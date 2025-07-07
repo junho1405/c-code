@@ -1,3 +1,2 @@
 ﻿  숙제용.cpp
-C:\Users\OFFICE\Desktop\c-code\Program\숙제용\숙제용.cpp(9,26): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
   숙제용.vcxproj -> C:\Users\OFFICE\Desktop\c-code\Program\x64\Debug\숙제용.exe
